@@ -1,0 +1,14 @@
+attacker_ip: "192.168.1.50"
+attacker_mac: "aa:bb:cc:dd:ee:ff"
+gateway_ip: "192.168.1.1"
+
+# Target machines on the LAN
+targets:
+  - "192.168.1.100"
+  - "192.168.1.101"
+
+# DNS spoofing map: domain -> redirect IP
+dns_spoof:
+  "example.com": "192.168.1.50"
+  "google.com": "192.168.1.50"
+  "facebook.com": "192.168.1.50"
